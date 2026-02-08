@@ -1,16 +1,18 @@
 {
-  "owner": {
-    "username": "cidler6901-alt",
-    "email": "cidler6901@zohomail.com"
-  },
-  "record": {
-    "CNAME": "cidler6901-alt.github.io"
-  }
+"owner": {
+"username": "cidler6901-alt",
+"email": "cidler6901@zohomail.com",
+"discord": "c_idler6901_alt"
+},
+"records": {
+"CNAME": "cidler6901-alt.github.io",
+"MX": [
+{ "priority": 10, "value": "mx.zoho.com" },
+{ "priority": 20, "value": "mx2.zoho.com" },
+{ "priority": 50, "value": "mx3.zoho.com" }
+],
+"TXT": [
+"zoho-verification=zb43618153.zmverify.zoho.com"
+]
 }
-
-
-
-
-
-
-
+}
